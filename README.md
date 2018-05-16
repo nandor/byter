@@ -2,11 +2,12 @@ Byter
 =====
 
 
-Byter is an 8-bit computer built entirely out of 7400 series HC and HCT integrated circuits.
+Byter is an 8-bit computer built mostly out of 7400 series HC and HCT integrated circuits.
 It features a 16-bit address bus, 64Kb RAM, up to 32Kb ROM, 8 input ports, and 8 output ports.
 The custom architecture includes a hardware stack pointer, program counter, accumulator,
 index register (page + offset). CPU clock rates of up to 1Mhz are supported, however by
-default the clock is scaled down to 2KHz. 
+default the clock is scaled down to 2KHz.  The instruction set is stack-based. Available
+peripherals include an 16x2 LCD display, a 4x4 hex keypad, a timer and 8 debug LEDs.
 
 Peripherals are mapped to the following ports:
 
