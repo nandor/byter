@@ -1,3 +1,4 @@
+ROM0
 =======================
 STATE                 4 done
 PREG                  1 done
@@ -10,6 +11,8 @@ DATA                  3 cross
   101 -
   110 -
   111 -
+  
+ROM1
 =======================
 ADDR                  2 cross
   00 - sp               done
@@ -25,6 +28,8 @@ MEM                   2 done
   01 - ram              done
   10 - msr              done
   11 -
+  
+ROM2
 =======================
 IO_WRITE              1 cross
 PO_LDP                1 cross
@@ -34,6 +39,8 @@ STK_INC               1 cross
 MEM_WR                1 done
 -
 -
+
+ROM3
 =======================
 ALU_C                 2 done
   00 - carry flag
@@ -49,21 +56,3 @@ ALU_MUX               2 done
   11 - left
 ALU_WR                1 done
 ALU_FLAG              1 done
-=======================
-
-
-=======================
-IO_ADDR               3 cross
-FLAGS                 4 done
-ALU_OP                5 done
-=======================
-
-CLR                     cross
-CLK                     cross
-
-jmp:
-
-out:
-
-imma:
-
