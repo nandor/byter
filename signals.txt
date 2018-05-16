@@ -1,0 +1,69 @@
+=======================
+STATE                 4 done
+PREG                  1 done
+DATA                  3 cross
+  000 - pc.lo           done
+  001 - pc.hi           done
+  010 - io              done
+  011 - mdr             cross
+  100 - alu             cross
+  101 -
+  110 -
+  111 -
+=======================
+ADDR                  2 cross
+  00 - sp               done
+  01 - sp + offset      done
+  10 - po               done
+  11 - pc               done
+PC_LDLO               1 cross
+PC_LDHI               1 cross
+PC_MUX                1 cross
+PC_INC                1 cross
+MEM                   2 done
+  00 - eeprom           done
+  01 - ram              done
+  10 - msr              done
+  11 -
+=======================
+IO_WRITE              1 cross
+PO_LDP                1 cross
+PO_LDO                1 cross
+STK_DEC               1 cross
+STK_INC               1 cross
+MEM_WR                1 done
+-
+-
+=======================
+ALU_C                 2 done
+  00 - carry flag
+  01 - carry 1
+  10 - carry 0
+  11 - carry 1
+ALU_M                 1 TODO
+-
+ALU_MUX               2 done
+  00 - id
+  01 - id
+  10 - right
+  11 - left
+ALU_WR                1 done
+ALU_FLAG              1 done
+=======================
+
+
+=======================
+IO_ADDR               3 cross
+FLAGS                 4 done
+ALU_OP                5 done
+=======================
+
+CLR                     cross
+CLK                     cross
+
+jmp:
+
+out:
+
+imma:
+
