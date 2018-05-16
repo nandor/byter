@@ -7,9 +7,10 @@ It features a 16-bit address bus, 64Kb RAM, up to 32Kb ROM, 8 input ports, and 8
 The custom architecture includes a hardware stack pointer, program counter, accumulator,
 index register (page + offset). CPU clock rates of up to 1Mhz are supported, however by
 default the clock is scaled down to 2KHz.  The instruction set is stack-based. Available
-peripherals include an 16x2 LCD display, a 4x4 hex keypad, a timer and 8 debug LEDs.
+peripherals include a 16x2 LCD display, a 4x4 hex keypad, a timer and 8 debug LEDs.
 
-The current implementation includes 77 ICs and ~70m of wiring.
+The current implementation includes 77 ICs and ~70m of wiring, spread across 5 solderless 
+breadboards, grouped into 5 modules of 3 boards each (I/O, SP, PC, ALU + Flags + MDR/MSR, RAM + uCode + ROM).
 
 Peripherals are mapped to the following ports:
 
