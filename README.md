@@ -9,6 +9,8 @@ index register (page + offset). CPU clock rates of up to 1Mhz are supported, how
 default the clock is scaled down to 2KHz.  The instruction set is stack-based. Available
 peripherals include an 16x2 LCD display, a 4x4 hex keypad, a timer and 8 debug LEDs.
 
+The current implementation includes 77 ICs and ~70m of wiring.
+
 Peripherals are mapped to the following ports:
 
 
